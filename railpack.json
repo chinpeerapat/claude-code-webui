@@ -1,11 +1,5 @@
 {
-  "steps": {
-    "build": {
-      "commands": [
-        "cd frontend && npm run build"
-      ]
-    }
-  },
+  "$schema": "https://schema.railpack.com",
   "deploy": {
     "startCommand": "cd frontend && npm run dev"
   }
